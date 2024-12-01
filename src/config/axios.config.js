@@ -2,7 +2,7 @@ import axios from "axios";
 import { clear } from "../helper/localStorage";
 
 const axiosConfig = {
-  baseURL: "https://tripwise-prakashkaturi-1ee05ae86887.herokuapp.com/",
+  baseURL: "https://tripwise-prakashkaturi-1ee05ae86887.herokuapp.com/homepage",
   headers: {
     Accept: "application/json",
     "Content-Type": "application/json",
