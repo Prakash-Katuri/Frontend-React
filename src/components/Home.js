@@ -214,7 +214,7 @@ function Home() {
             }}
           >
             <InputNumber
-              placeholder="No of persons"
+              placeholder="No of persons, two persons per room"
               label="No of persons , two persons per room"
               min={1}
               onChange={onPersonChange}
