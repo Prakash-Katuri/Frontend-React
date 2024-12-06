@@ -87,7 +87,7 @@ function Home() {
         gutter={[24, 24]}
         align="middle"
         justify="center"
-        // style={{ textAlign: "center" }}
+        
       >
         <Col
           lg={{ span: 12 }}
@@ -119,7 +119,7 @@ function Home() {
         >
           <Select
             placeholder="Please select city"
-            // defaultValue="lucy"
+            
             style={{
               width: 200,
             }}
@@ -149,17 +149,17 @@ function Home() {
               {
                 key: "hotel",
                 label: `Hotels `,
-                // icon: <Icon />,
+                
               },
               {
                 key: "restaurant",
                 label: `Restaurant `,
-                // icon: <Icon />,
+                
               },
               {
                 key: "place",
                 label: `Places to visit `,
-                // icon: <Icon />,
+                
               },
             ]}
             onChange={(value) => {
