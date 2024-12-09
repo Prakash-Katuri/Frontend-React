@@ -183,6 +183,7 @@ function Home() {
           <InputNumber
             placeholder="budget per day"
             label="budget per day"
+            min={50}
             onChange={onBudgetChange}
             style={{
               width: TabsChange !== "hotel" ? "200px" : "100%",
