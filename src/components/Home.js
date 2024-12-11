@@ -186,7 +186,7 @@ function Home() {
             min={40}
             onChange={onBudgetChange}
             style={{
-              width: "100%",
+              width: TabsChange !== "hotel" ? "400px" : "100%",
             }}
           />
         </Col>
