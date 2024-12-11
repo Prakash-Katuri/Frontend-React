@@ -181,9 +181,9 @@ function Home() {
         >
         
           <InputNumber
-            placeholder="budget per day"
-            label="budget per day Please enter minimum $50"
-            min={50}
+            placeholder="budget per day Please enter minimum $40"
+            label="budget per day Please enter minimum $40"
+            min={40}
             onChange={onBudgetChange}
             style={{
               width: TabsChange !== "hotel" ? "200px" : "100%",
