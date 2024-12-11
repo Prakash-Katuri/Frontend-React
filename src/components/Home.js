@@ -182,7 +182,7 @@ function Home() {
         
           <InputNumber
             placeholder="budget per day"
-            label="budget per day"
+            label="budget per day Please enter minimum $50"
             min={50}
             onChange={onBudgetChange}
             style={{
